@@ -1,18 +1,37 @@
 <!DOCTYPE html>
+<!-- where the file type is identified as html (has an opening and closing tag) -->
 <html lang = "en">
 
 <head>
+<!-- where we place all the files we want to include in our html page, including CSS style sheets etc (has an opening andd closing tag) -->
+
 <meta charset = "utf-8" />
 <title>Mikes Example Page</title>
 </head>
 
 <body>
+<!-- Body where viewable page content goes, sidebar, footer for site map (has an opening and closing tag) -->
 
 <header>
-
-<!-- Header goes inside body holds title, image, main site image and maybe site navigation  ... Change add -->
+<!-- Header goes inside <body> , it holds title, image, main site image and maybe site navigation (has an opening and closing tag) -->
 
 </header>
+
+<div class="content">
+<!-- div can be placed after the close header tag to add content within the body. -->
+<!-- div can contain different type of content as long as the class attribute is updated to reflect the type of content -->
+</div>
+
+<div class="sidebar">
+</div>
+
+<!-- <a></a> links are the key to building the internet and make your site more navigatible -->
+<a href="www.externalwebsite.com"> Text displayed linking to the external website</a>
+<a href="contentInMySite.html"> This content is within the same directory that my current page and webpages are</a>
+
+<footer>
+<!-- contains quick links to common area of site, like 'contact us', for example -->
+</footer>
 
 </body>
 
