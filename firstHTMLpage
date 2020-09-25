@@ -17,11 +17,23 @@
 
 </header>
 
+
+<!-- div holds most of the website content. This of div like a newspaper column with image, caption and text. The can be ID'd and -->
+<!-- classed also. There is not limit to the number of divs you can have in a web page -->
+
 <div class="content">
 <!-- div's make up the body of a web page. They contain columns, images, etc, typically grouped together -->
 <!-- divs can contain images, videos audio, text, as well as other elements like articles and sections -->
+
 <!-- div can be placed after the close header tag to add content within the body. -->
-<!-- div can contain different type of content as long as the class attribute is updated to reflect the type of content -->
+<!-- div can contain different types of content as long as the class attribute is set to allow use of CSS3 format classes -->
+
+<div>here is my div content!</div>
+
+<div ID="myDIVid">here is my div ID'd content</div>
+
+<div class="content">
+
 </div>
 
 <div class="sidebar">
@@ -30,6 +42,36 @@
 <!-- <a></a> links are the key to building the internet and make your site more navigatible -->
 <a href="www.externalwebsite.com"> Text displayed linking to the external website</a>
 <a href="contentInMySite.html"> This content is within the same directory that my current page and webpages are</a>
+
+<!-- Ordered and unordered lists -->
+
+<!-- Unordered list example -->
+<ul>
+<li>1st bullet item</li>
+<li>2nd bullet item</li>
+</ul>
+
+<!-- Unordered with nesting list example -->
+<ul>
+<li>1st bullet item</li>
+  <ul>
+  <li> 1st sub item to 1st bullet<li>
+  <li> 2nd sub item to 1st bullet<li>
+  </ul>
+<li>2nd bullet item</li>
+</ul>
+
+
+<!-- Ordered list example , nesting can be done in ordered lists the same as unordered list above-->
+<ol>
+<li>ist bullet item</li>
+<li>2nd bullet item</li>
+</ol>
+
+
+
+
+
 
 <footer>
 <!-- contains quick links to common area of site, like 'contact us', for example -->
