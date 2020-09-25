@@ -17,8 +17,14 @@
 
 </header>
 
+
 <!-- div holds most of the website content. This of div like a newspaper column with image, caption and text. The can be ID'd and -->
 <!-- classed also. There is not limit to the number of divs you can have in a web page -->
+
+<div class="content">
+<!-- div's make up the body of a web page. They contain columns, images, etc, typically grouped together -->
+<!-- divs can contain images, videos audio, text, as well as other elements like articles and sections -->
+
 <!-- div can be placed after the close header tag to add content within the body. -->
 <!-- div can contain different types of content as long as the class attribute is set to allow use of CSS3 format classes -->
 
